@@ -1,0 +1,43 @@
+Algoritmo "FUNCOES ARITIMETICAS"
+
+Var
+
+A: INTEIRO
+B: REAL
+C: REAL
+C1: REAL
+C2: REAL
+D: REAL
+D1: REAL
+
+
+Inicio
+
+A <- ABS(-50) //NESSA ATRIBUIÇÃO MOSTRA O VALOR ABSOLUTO QUE É 50
+ESCREVAL (A)
+
+B <- EXP (2, 4) //NESSA ATRIBUIÇÃO ESCREVE O VALOR DE 2 A 4ª POTENCIA
+ESCREVAL (B)
+
+C <- RAIZQ(9) //CALCULA A RAIZ QUADRADA
+ESCREVAL (C)
+
+C1 <- RAIZQ(90)
+ESCREVAL (C1)
+
+C2 <- INT(RAIZQ(90)) //PARA TER SÓ A PARTE INTEIRA DO NÚMERO
+ESCREVAL (C2)
+
+D <- GRAUPRAD(90) //CONVERSÃO DE GRAUS PARA RADIANO
+ESCREVAL (D)
+
+D1 <- SEN(GRAUPRAD(90)) //ACHA O SENO DE 90 APÓS A CONVERSÃO EM RADIANO
+ESCREVAL (D1)
+
+Fimalgoritmo
+
+//Ordem de precedência dentro da expressão
+// 1 - () Parenteses
+// 2- ^ Exponenciação
+// 3- Multiplicação e Divisão
+// 4- Adição e Subtração
